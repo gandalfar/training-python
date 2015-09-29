@@ -52,7 +52,7 @@ V aktiviran `virtualenv` namestimo pakete s programom `pip`:
 	Installing collected packages: requests
 	Successfully installed requests
 	Cleaning up...
-	
+ 
 
 Nameščene pakete vidimo z ukazom `pip freeze`:
 	$ pip freeze
