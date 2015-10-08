@@ -38,9 +38,9 @@ def main():
 def bikes_station_average(all_data, station_name):
 	bikes_count = 0
 	count = 0
-	for reading in all_data:
-		if reading['station_name'] == station_name:
-			bikes_count += int(reading['bikes_count'])
+	for measurment in all_data:
+		if measurment['station_name'] == station_name:
+			bikes_count += int(measurment['bikes_count'])
 			count += 1
 
 	return bikes_count / count
