@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 
-class BicikeljParser:
+class BicikeljParser(object):
 	
 	def __init__(self, filename):
 		self.filename = filename
